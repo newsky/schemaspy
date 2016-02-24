@@ -21,7 +21,7 @@
   <artifactId>schemaspy</artifactId>
   <packaging>jar</packaging>
   <name>SchemaSpy</name>
-  <version>5.0.2-pellcorp</version>
+  <version>5.0.2</version>
   <url>http://schemaspy.sourceforge.net</url>
   <description>SchemaSpy generates HTML and PNG-based entity relationship diagrams from JDBC-enabled databases.</description>
   <inceptionYear>2004</inceptionYear>
@@ -154,6 +154,12 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.38</version>
     </dependency>
   </dependencies>
   

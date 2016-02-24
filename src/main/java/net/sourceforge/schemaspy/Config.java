@@ -669,7 +669,7 @@ public class Config
         if (charset == null) {
             charset = pullParam("-charset");
             if (charset == null)
-                charset = "ISO-8859-1";
+                charset = "UTF-8";
         }
         return charset;
     }
@@ -1661,8 +1661,6 @@ public class Config
             System.out.println("   -o outputDirectory    directory to place the generated output in");
             System.out.println("   -dp pathToDrivers     optional - looks for JDBC drivers here before looking");
             System.out.println("                           in driverPath in [databaseType].properties.");
-            System.out.println("Go to http://schemaspy.sourceforge.net for a complete list/description");
-            System.out.println(" of additional parameters.");
             System.out.println();
         }
 
